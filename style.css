@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    padding-top: 45px;
+}
+.bcolor{
+    background-color:green;
+    border-bottom: 2px solid black;
+}
+.nav-link{
+    color: white;
+    font-weight: 500;
+}
+.nav-link::before{
+    transition: 300ms;
+    height: 5px;
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 0%;
+    bottom: 10px;
+}
+.bclr{
+    background-color: green;
+    border: 2px solid black;
+}
